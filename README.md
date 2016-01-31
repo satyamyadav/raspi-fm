@@ -9,6 +9,7 @@ cd raspi-fm
 tar -zxvf pifm.tar.gz
 
  sudo chmod +x setup.sh
+ 
  ./setup.sh
 
  :or
