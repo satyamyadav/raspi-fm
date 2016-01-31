@@ -4,6 +4,10 @@ A raspberry pi fm transmission
 
 git clone https://github.com/satyamyadav/raspi-fm.git
 
+cd raspi-fm
+
+tar -zxvf pifm.tar.gz
+
 ./setup.sh
 or
 
