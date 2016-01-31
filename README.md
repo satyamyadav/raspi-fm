@@ -8,11 +8,16 @@ cd raspi-fm
 
 tar -zxvf pifm.tar.gz
 
-./setup.sh
-or
+ sudo chmod +x setup.sh
+ ./setup.sh
+
+ :or
 
 sudo apt-get install sox
 
 sudo apt-get install libsox-fmt-mp3
 
-to start : ./myfm
+#### to start : 
+./myfm
+
+tune your fm reciever or any fm radio to 99.9 MHz
