@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+
+
+
+
+ sox -v 1.2 -t mp3 fmusic/fmusic.m3u -t wav --input-buffer 80000 -r 22050 -c 1 - | sudo ./pifm - 99.9;
+
+
+
+
+
+
+
